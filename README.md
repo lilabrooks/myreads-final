@@ -6,8 +6,7 @@ This is the final assessment project for Udacity's React Fundamentals course. I 
 ## To setup & run the project:
 
 * download or clone this repo
-* install all project dependencies with `npm install`
-* install yarn (type yarn in terminal )
+* install all project dependencies with `yarn install`
 * start the development server with 'yarn start'
 
 
