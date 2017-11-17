@@ -6,14 +6,14 @@ import SearchBooks from './components/SearchBooks'
 import './App.css'
 
 class BooksApp extends Component {
-    render() {
-        return(
-            <div className="app">
-                <Route exact path="/" component={BookList} />
-                <Route path="/search" component={SearchBooks} />
-            </div>
-        );
-    }
+  render () {
+    return (
+      <div className="app">
+        <Route exact path="/" component={BookList} />
+        <Route path="/search" component={SearchBooks} />
+      </div>
+    )
+  }
 }
 
 export default BooksApp
